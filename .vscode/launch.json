@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "name": "Launch Chrome 2",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost/demo/index.php",
+            "webRoot": "${C:/xampp/htdocs/demo}"
+        },
+    
+
+   
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${C:/xampp/htdocs/demo}"
+        }
+
+    ]
+}
